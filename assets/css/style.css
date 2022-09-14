@@ -26,6 +26,8 @@ h1 {
 #title-logo {
     float: left;
     font-size: 350%;
+    margin-left:50px;
+
 
 }
 
@@ -73,11 +75,11 @@ nav {
 }
 
 /* main-page-picture */
+
 #main-page-picture-box {
     height: 700px;
     width: 100%;
     overflow: hidden;
-
 }
 
 #main-page-picture {
@@ -86,6 +88,7 @@ nav {
     width: 100%;
     background-color: #252525;
     position: relative;
+    
     /* animation zoom for when page is loading*/
  
     animation-name: section1-zoom;
@@ -104,3 +107,33 @@ nav {
     }
  }
 
+ /* footer */ 
+
+ footer {
+     height:100px;
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     left: 0;
+  }
+ 
+ .social {
+     text-align: center;
+ }
+ 
+ .social li {
+     display: inline;
+ }
+ 
+ .social i {
+     font-size:300%;
+     margin:1%;
+     padding:1%;
+     color:#ff7b00;
+     border-radius: 50%;
+ }
+ 
+ i:hover {
+     background-color:#ff7b00;
+     color:#252525;;
+ }
