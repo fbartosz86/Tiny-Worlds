@@ -13,10 +13,20 @@ Body {
     color: #ff7b00;
 }
 
-h1{
+/* header and main picture */
+
+h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
     color: #ff7b00;
+}
+
+#title-logo{
+    float: left;
+    font-size: 300%;
+    
 }
 
 header a {
