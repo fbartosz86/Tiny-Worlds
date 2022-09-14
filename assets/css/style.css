@@ -26,31 +26,48 @@ h1 {
 #title-logo {
     float: left;
     font-size: 350%;
-    
+
 }
 
 header a {
     text-decoration: none;
 }
+
 /* Navigation menu */
 #menu {
     letter-spacing: 4px;
-    font-size:150%;
+    font-size: 150%;
     font-weight: 800;
 }
-#menu, #title-logo{
-    line-height:75px;
+
+#menu,
+#title-logo {
+    line-height: 75px;
 }
+
 /* to revers order of the nav  bar */
-nav{
+nav {
     float: right;
 }
+
 #menu li {
-    float:left;
+    float: left;
     list-style-type: none;
-    margin-right:50px;
+    margin-right: 50px;
 }
+
 #menu a {
-text-decoration: none;
-color: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #ff7b00;
+    text-shadow: 0 0 15px #ff7b00;
+
+}
+
+.active{
+    text-shadow: 0 0 15px #ff7b00;
+    border-bottom: 2px solid #ff7b00;
 }
