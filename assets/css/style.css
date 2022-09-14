@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
 
-body {
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #252525;
+}
+
+Body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    color: #ff7b00;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #ff7b00;
+}
+
+header a {
+    text-decoration: none;
 }
