@@ -67,7 +67,40 @@ nav {
 
 }
 
-.active{
+.active {
     text-shadow: 0 0 15px #ff7b00;
     border-bottom: 2px solid #ff7b00;
 }
+
+/* main-page-picture */
+#main-page-picture-box {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#main-page-picture {
+    background: url('../images/1.jpg') no-repeat center center;
+    height: 700px;
+    width: 100%;
+    background-color: #252525;
+    position: relative;
+    /* animation zoom for when page is loading*/
+ 
+    animation-name: section1-zoom;
+    animation-duration:5s;
+    animation-fill-mode: forwards;
+}
+
+/* level of zoom */
+
+@keyframes section1-zoom {
+    from{
+        transform:scale(0.9);
+    }
+    to{
+        transform:scale(1.1);
+    }
+ }
+
