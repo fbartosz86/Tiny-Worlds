@@ -17,7 +17,7 @@ Body {
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #ff7b00;
@@ -35,7 +35,11 @@ header a {
 /* Navigation menu */
 #menu {
     letter-spacing: 4px;
-    font-size:150%; 
+    font-size:150%;
+    font-weight: 800;
+}
+#menu, #title-logo{
+    line-height:75px;
 }
 /* to revers order of the nav  bar */
 nav{
@@ -45,4 +49,8 @@ nav{
     float:left;
     list-style-type: none;
     margin-right:50px;
+}
+#menu a {
+text-decoration: none;
+color: inherit;
 }
