@@ -23,12 +23,26 @@ h1 {
     color: #ff7b00;
 }
 
-#title-logo{
+#title-logo {
     float: left;
-    font-size: 300%;
+    font-size: 350%;
     
 }
 
 header a {
     text-decoration: none;
+}
+/* Navigation menu */
+#menu {
+    letter-spacing: 4px;
+    font-size:150%; 
+}
+/* to revers order of the nav  bar */
+nav{
+    float: right;
+}
+#menu li {
+    float:left;
+    list-style-type: none;
+    margin-right:50px;
 }
