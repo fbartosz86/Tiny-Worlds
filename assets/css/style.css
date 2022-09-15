@@ -15,7 +15,7 @@ Body {
 
 /* header and main picture */
 
-h1 {
+h1, h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -26,9 +26,7 @@ h1 {
 #title-logo {
     float: left;
     font-size: 350%;
-    margin-left:50px;
-
-
+    margin-left: 50px;
 }
 
 header a {
@@ -88,52 +86,83 @@ nav {
     width: 100%;
     background-color: #252525;
     position: relative;
-    
+
     /* animation zoom for when page is loading*/
- 
+
     animation-name: section1-zoom;
-    animation-duration:5s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 /* level of zoom */
 
 @keyframes section1-zoom {
-    from{
-        transform:scale(0.9);
+    from {
+        transform: scale(0.9);
     }
-    to{
-        transform:scale(1.1);
+
+    to {
+        transform: scale(1.1);
     }
- }
+}
 
- /* footer */ 
+/* section2 h1 and p */
+#main-page-text{
+    height: 25rem;
+    width: 100%;
+    text-align: center;
+    position: relative;
 
- footer {
-     height:100px;
-     position: absolute;
-     right: 0;
-     bottom: 0;
-     left: 0;
+}
+#welcome{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size:350%;
+}
+p{ 
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size:150%;
+}
+h2{
+    
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size:200%;
+
+}
+
+/* footer */
+
+footer {
+    bottom:0;
+    width:100%;
+    height: 150px;
+    
   }
- 
- .social {
-     text-align: center;
- }
- 
- .social li {
-     display: inline;
- }
- 
- .social i {
-     font-size:300%;
-     margin:1%;
-     padding:1%;
-     color:#ff7b00;
-     border-radius: 50%;
- }
- 
- i:hover {
-     background-color:#ff7b00;
-     color:#252525;;
- }
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 1%;
+    color: #ff7b00;
+    border-radius: 50%;
+}
+
+i:hover {
+    background-color: #ff7b00;
+    color: #252525;
+    text-shadow: 0 0 100px #ff7b00;
+
+}
