@@ -169,12 +169,45 @@ i:hover {
 
 /*gallery*/
 
-#pictures{
+
+#list-of-projects{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    font-size:350%;
+    height:200px;
+    overflow: hidden
+}
+#pictures div{
     clear:both;
     line-height: 0;
-    column-count: 5;
+    column-count:2;
     column-gap:0;
-}
-#pictures > img{
+    margin:50px 30px;
+ }
+
+#pictures div img{
     width:100%;
-    }
+}
+
+#pictures hr {
+    border: 5px solid #ff7b00;
+    border-radius: 5px;
+    margin:50px 20px;
+}
+
+#list-of-projects-li li {
+    float: left;
+    list-style-type: none;
+    margin:0px 50px;
+}
+
+#list-of-projects-li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#list-of-projects-li a:hover {
+    border-bottom: 1px solid #ff7b00;
+    text-shadow: 0 0 15px #ff7b00;
