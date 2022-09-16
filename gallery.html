@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="button-top" title="Go to top">Go To Top</button>
     <header>
         <a href="index.html">
             <h1 id="title-logo">Tiny Worlds</h1>
@@ -30,6 +31,7 @@
         </nav>
     </header>
     <hr>
+    
     <h1 id="list-of-projects"> list of projects </h1>
     <ul id="list-of-projects-li">
         <li>
@@ -60,7 +62,7 @@
             <a href="#truck">Red Trcuk</a>
         </li>
         <li>
-            <a href="#war">War scene</a>
+            <a href="#war">War Scene</a>
         </li>
         <li>
             <a href="#yam">Yamaha XV1600</a>
@@ -210,6 +212,26 @@
     <!--font awsome script-->
 
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+
+    <!-- Button go to top script -->
+    <script>
+        let mybutton = document.getElementById("button-top");
+
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 </body>
 
 </html>
