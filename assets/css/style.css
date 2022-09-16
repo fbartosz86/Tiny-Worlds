@@ -194,15 +194,16 @@ i:hover {
 #pictures hr {
     border: 5px solid #ff7b00;
     border-radius: 5px;
-    margin:50px 20px;
+    width:95%;
+    margin:50px auto;
     
 
 }
 
 #list-of-projects-li li {
-    float: left;
+    display: inline-block;
     list-style-type: none;
-    margin:10px 40px;
+    margin:10px 30px;
 }
 
 #list-of-projects-li a {
