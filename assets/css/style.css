@@ -153,7 +153,7 @@ footer {
 }
 
 .social i {
-    font-size: 300%;
+    font-size: 250%;
     margin: 1%;
     padding: 1%;
     color: #ff7b00;
@@ -238,3 +238,37 @@ i:hover {
   color: #ff7b00;
   text-shadow: 0 0 15px #ff7b00;
 }
+
+ /* For larger to medium screens size from 1200px wide and down */
+
+ @media only screen and (max-width: 1300px) {
+    #main-page-text{
+    height: 35rem;
+    
+
+    }
+  
+}
+
+/* For larger to medium screens size from 700px wide and down */
+
+@media only screen and (max-width: 700px) {
+    #main-page-text{
+    height: 38rem;
+    }
+
+    /* For larger to medium screens size from 500px wide and down */
+
+@media only screen and (max-width: 500px) {
+    #main-page-text{
+    height: 45rem;
+    }
+
+    
+
+     /* For larger to medium screens size from 380px wide and down */
+
+@media only screen and (max-width: 380px) {
+    #main-page-text{
+    height: 50rem;
+    }
