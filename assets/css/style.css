@@ -15,7 +15,8 @@ Body {
 
 /* header and main picture */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -78,14 +79,16 @@ nav {
     height: 700px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #main-page-picture {
     background: url('../images/1.jpg') no-repeat center center;
     height: 700px;
     width: 100%;
+    background-size: 100%;
     background-color: #252525;
-    position: relative;
+
 
     /* animation zoom for when page is loading*/
 
@@ -107,42 +110,45 @@ nav {
 }
 
 /* section2 h1 and p */
-#main-page-text{
+#main-page-text {
     height: 25rem;
     width: 100%;
     text-align: center;
     position: relative;
 
 }
-#welcome{
+
+#welcome {
     margin: auto;
     margin-top: 50px;
     text-align: center;
-    font-size:350%;
+    font-size: 350%;
 }
-p{ 
+
+p {
     margin: auto;
     margin-top: 50px;
     text-align: center;
-    font-size:150%;
+    font-size: 150%;
 }
-h2{
-    
+
+h2 {
+
     margin: auto;
     margin-top: 50px;
     text-align: center;
-    font-size:200%;
+    font-size: 200%;
 
 }
 
 /* footer */
 
 footer {
-    bottom:0;
-    width:100%;
+    bottom: 0;
+    width: 100%;
     height: 150px;
-    
-  }
+
+}
 
 .social {
     text-align: center;
@@ -170,40 +176,41 @@ i:hover {
 /*gallery*/
 
 
-#list-of-projects{
+#list-of-projects {
     font-family: 'Open Sans', sans-serif;
     margin: auto;
     margin-top: 150px;
     text-align: center;
-    font-size:350%;
-    height:200px;
-    overflow: hidden
-}
-#pictures div{
-    clear:both;
-    line-height: 0;
-    column-count:2;
-    column-gap:0;
-    margin:50px 30px;
- }
+    font-size: 350%;
+    height: 200px;
 
-#pictures div img{
-    width:100%;
+}
+
+#pictures div {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+    margin: 50px 30px;
+}
+
+#pictures div img {
+    width: 100%;
 }
 
 #pictures hr {
     border: 5px solid #ff7b00;
     border-radius: 5px;
-    width:95%;
-    margin:50px auto;
-    
+    width: 95%;
+    margin: 50px auto;
+
 
 }
 
 #list-of-projects-li li {
     display: inline-block;
     list-style-type: none;
-    margin:10px 30px;
+    margin: 10px 30px;
 }
 
 #list-of-projects-li a {
@@ -219,56 +226,144 @@ i:hover {
 /* go to top button */
 
 #button-top {
-    display: none; 
-    position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
-    z-index: 99; 
-    border: none; 
-    outline: none; 
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
     background-color: #ff7b00;
     color: #252525;
-    cursor: pointer; 
-    padding: 15px; 
-    border-radius: 10px; 
-    font-size: 18px; 
-  }
-  #button-top:hover {
-  background-color: #252525;
-  color: #ff7b00;
-  text-shadow: 0 0 15px #ff7b00;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
 }
 
- /* For larger to medium screens size from 1200px wide and down */
-
- @media only screen and (max-width: 1300px) {
-    #main-page-text{
-    height: 35rem;
-    
-
-    }
-  
+#button-top:hover {
+    background-color: #252525;
+    color: #ff7b00;
+    text-shadow: 0 0 15px #ff7b00;
 }
 
-/* For larger to medium screens size from 700px wide and down */
+/* For larger to medium screens size from 1300px wide and down */
 
-@media only screen and (max-width: 700px) {
-    #main-page-text{
-    height: 38rem;
+@media only screen and (max-width: 1300px) {
+    #main-page-text {
+        height: 38rem;
+        width: 80%;
+        margin: 0 auto;
     }
 
-    /* For larger to medium screens size from 500px wide and down */
-
-@media only screen and (max-width: 500px) {
-    #main-page-text{
-    height: 45rem;
+    #main-page-picture-box {
+        height: 600px;
+        padding: 0;
     }
 
-    
+    #main-page-picture {
+        background-size: 1100px 600px;
 
-     /* For larger to medium screens size from 380px wide and down */
-
-@media only screen and (max-width: 380px) {
-    #main-page-text{
-    height: 50rem;
     }
+}
+
+/* For larger to medium screens size from 950px wide and down */
+
+@media only screen and (max-width: 950px) {
+    #title-logo {
+        margin-left: 30px;
+    }
+
+    nav {
+        float: left;
+    }
+
+    #menu li {
+        margin-left: 30px;
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+
+    #main-page-picture-box {
+        height: 550px;
+        margin: 0;
+        padding: 0;
+        
+       
+    }
+
+    #main-page-picture {
+        background-size: 850px 550px;
+    }
+
+    #list-of-projects {
+        height: 100px;
+    }
+
+
+
+}
+
+/* For larger to medium screens size from 600px wide and down */
+
+@media only screen and (max-width: 600px) {
+    nav {
+        clear:both;
+    }
+
+    #menu li {
+        margin-left: 30px;
+        margin-bottom: 10px;
+        clear:both;
+    }
+
+    #main-page-text {
+        height: 45rem;
+    }
+
+    #main-page-picture-box {
+        height: 520px;
+    }
+
+    #main-page-picture {
+        background-size: 600px 520px;
+    }
+}
+
+/* For larger to medium screens size from 480px wide and down */
+
+@media only screen and (max-width: 480px) {
+
+    #title-logo, #welcome{
+        font-size: 300%;
+    }
+
+    #main-page-text {
+        height: 50rem;
+    }
+
+    #main-page-picture-box {
+        height: 520px;
+    }
+
+    #main-page-picture {
+        background-size: 450px 510px;
+    }
+}
+
+/* For larger to medium screens size from 360px wide and down */
+
+@media only screen and (max-width: 360px) {
+    #main-page-text {
+        height: 55rem;
+    }
+
+}
+
+/* For larger to medium screens size from 360px wide and down */
+
+@media only screen and (max-width: 360px) {
+    #main-page-text {
+        height: 60rem;
+    }
+}
