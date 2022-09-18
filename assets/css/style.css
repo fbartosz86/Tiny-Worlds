@@ -175,7 +175,6 @@ i:hover {
 
 /*gallery*/
 
-
 #list-of-projects {
     font-family: 'Open Sans', sans-serif;
     margin: auto;
@@ -307,14 +306,10 @@ i:hover {
 /* For larger to medium screens size from 600px wide and down */
 
 @media only screen and (max-width: 600px) {
-    nav {
-        clear:both;
-    }
-
+    
     #menu li {
-        margin-left: 30px;
-        margin-bottom: 10px;
-        clear:both;
+        margin-right: 25px;
+
     }
 
     #main-page-text {
@@ -328,14 +323,33 @@ i:hover {
     #main-page-picture {
         background-size: 600px 520px;
     }
+
+    #list-of-projects{
+        font-size: 300%;
+    }
+
+     #title-logo, #welcome, #list-of-projects{
+        font-size: 300%;
+    }
+   
 }
 
 /* For larger to medium screens size from 480px wide and down */
 
 @media only screen and (max-width: 480px) {
 
-    #title-logo, #welcome{
-        font-size: 300%;
+    nav {
+        clear:both;
+    }
+
+    #menu li {
+        margin-left: 30px;
+        margin-bottom: 10px;
+        clear:both;
+    }
+
+    #title-logo, #welcome, #list-of-projects{
+        font-size: 280%;
     }
 
     #main-page-text {
@@ -349,15 +363,27 @@ i:hover {
     #main-page-picture {
         background-size: 450px 510px;
     }
+
+    #list-of-projects{
+        margin-top: 200px;
+        
+    }
 }
 
-/* For larger to medium screens size from 360px wide and down */
+/* For larger to medium screens size from 435px wide and down */
 
-@media only screen and (max-width: 360px) {
-    #main-page-text {
-        height: 55rem;
+@media only screen and (max-width: 435px) {
+    #list-of-projects{
+         margin-bottom: 30px;
     }
+}
 
+/* For larger to medium screens size from 380px wide and down */
+
+@media only screen and (max-width: 380px) {
+    #list-of-projects{
+         margin-top: 260px;
+    }
 }
 
 /* For larger to medium screens size from 360px wide and down */
@@ -365,5 +391,8 @@ i:hover {
 @media only screen and (max-width: 360px) {
     #main-page-text {
         height: 60rem;
+    }
+    #welcome{
+        font-size: 270%;
     }
 }
