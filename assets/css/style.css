@@ -245,6 +245,18 @@ i:hover {
     color: #ff7b00;
     text-shadow: 0 0 15px #ff7b00;
 }
+#video{
+    display:inline;
+    }
+#video iframe {
+    width:560px;
+    height:315px;
+    float:left;
+    margin:30px;
+      
+}
+
+
 
 /* For larger to medium screens size from 1300px wide and down */
 
@@ -298,9 +310,6 @@ i:hover {
     #list-of-projects {
         height: 100px;
     }
-
-
-
 }
 
 /* For larger to medium screens size from 600px wide and down */
@@ -331,7 +340,21 @@ i:hover {
      #title-logo, #welcome, #list-of-projects{
         font-size: 300%;
     }
-   
+
+    #list-of-projects-li li {
+        column-count: 3;
+        margin:auto;
+        padding:0;
+        width: 33%;
+        text-align: left;
+        text-align: justify;
+    }
+    #video iframe {
+        width:420px;
+        height:232px;
+        float:left;
+        margin:10px 20px;
+    }
 }
 
 /* For larger to medium screens size from 480px wide and down */
@@ -368,14 +391,23 @@ i:hover {
         margin-top: 200px;
         
     }
+ 
 }
 
-/* For larger to medium screens size from 435px wide and down */
+/* For larger to medium screens size from 440px wide and down */
 
-@media only screen and (max-width: 435px) {
+@media only screen and (max-width: 440px) {
     #list-of-projects{
          margin-bottom: 30px;
+         
     }
+    #video iframe {
+        width:280px;
+        height:158px;
+        float:left;
+        margin:10px 20px;
+    }
+    
 }
 
 /* For larger to medium screens size from 380px wide and down */
@@ -394,5 +426,34 @@ i:hover {
     }
     #welcome{
         font-size: 270%;
+    }
+    #main-page-picture-box {
+        height: 500px;
+    }
+
+    #main-page-picture {
+        background-size: 360px 500px;
+    }
+ /* For larger to medium screens size from 330px wide and down */
+ 
+@media only screen and (max-width: 330px) {
+
+   #video iframe {
+        width:190px;
+        height:106px;
+        float:left;
+        margin:10px 20px;
+    }
+}
+
+/* For larger to medium screens size from 280px wide and down */
+
+@media only screen and (max-width: 280px) {
+    #main-page-text {
+        height: 80rem;
+    }
+
+    #title-logo, #welcome, #list-of-projects {
+        font-size: 240%;
     }
 }
