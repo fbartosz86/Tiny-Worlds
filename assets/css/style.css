@@ -191,11 +191,12 @@ i:hover {
     column-count: 2;
     column-gap: 0;
     margin: 50px 30px;
+    
 }
 
 #pictures div img {
-    width: 100%;
-}
+    width:100%;
+    }
 
 #pictures hr {
     border: 5px solid #ff7b00;
@@ -247,13 +248,14 @@ i:hover {
 }
 #video{
     display:inline;
+    
     }
 #video iframe {
-    width:560px;
-    height:315px;
+    width:700px;
+    height:425px;
     float:left;
     margin:30px;
-      
+ 
 }
 
 
