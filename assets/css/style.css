@@ -258,7 +258,63 @@ i:hover {
  
 }
 
+/* Form */ 
 
+.signup-form-section {
+    clear: left;
+    background:  url('../images/12.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #ff7b00;
+    background-color: rgba(37,	37,	37, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 35px;
+}
+.signup-form h2 {
+    color: #ff7b00;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.label{
+    background-color: transparent;
+}
+
+.input-text {
+    background: transparent;
+    color: #ff7b00;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ff7b00;
+    border-radius: 2px;
+}
+.input-text:hover {
+    border-color: #ff7b00;
+    box-shadow: 0 0 15px #ff7b00;
+}
+.signup-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color:#ff7b00;
+    color: #252525;
+    display: block;
+}
+.signup-button:hover {
+    background-color: #252525;
+    color: #ff7b00;
+    box-shadow: 0 0 15px #ff7b00;
+}
+/* end form */
 
 /* For larger to medium screens size from 1300px wide and down */
 
