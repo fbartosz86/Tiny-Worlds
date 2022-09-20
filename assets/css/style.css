@@ -316,6 +316,16 @@ i:hover {
 }
 /* end form */
 
+/* confirmation */
+
+#confi {
+    background-color: transparent;
+}
+#gohome{
+    margin:20px auto;
+}
+
+
 /* For larger to medium screens size from 1300px wide and down */
 
 @media only screen and (max-width: 1300px) {
