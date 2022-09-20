@@ -475,6 +475,11 @@ i:hover {
         float:left;
         margin:10px 20px;
     }
+
+    .signup-form {
+        left: 5%;
+        margin: 150px 5% 0 0;
+}
     
 }
 
@@ -484,8 +489,13 @@ i:hover {
     #list-of-projects{
          margin-top: 260px;
     }
+ .signup-form {
+        left: 2%;
+        margin: 150px 2% 0 0;
+        padding:20px;
 }
 
+}
 /* For larger to medium screens size from 360px wide and down */
 
 @media only screen and (max-width: 360px) {
@@ -502,6 +512,11 @@ i:hover {
     #main-page-picture {
         background-size: 360px 500px;
     }
+    .signup-form {
+        left: 1%;
+        margin: 150px 1% 0 0;
+        padding:10px;
+}
  /* For larger to medium screens size from 330px wide and down */
  
 @media only screen and (max-width: 330px) {
