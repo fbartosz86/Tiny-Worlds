@@ -169,7 +169,7 @@ footer {
 i:hover {
     background-color: #ff7b00;
     color: #252525;
-    text-shadow: 0 0 100px #ff7b00;
+    box-shadow: 0 0 15px #ff7b00;
 
 }
 
