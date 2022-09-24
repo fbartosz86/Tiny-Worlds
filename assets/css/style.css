@@ -185,19 +185,45 @@ i:hover {
 
 }
 
-#pictures div {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
-    margin: 50px 30px;
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .image-gallery > li {
+    height: 400px;
+    position: relative; 
+    flex:auto;
+    list-style-type: none;
+  }
+  
+  .image-gallery li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+      
+  }
+  
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;}
+
+
+ #video iframe{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
     
-}
-
-#pictures div img {
-    width:100%;
-    }
-
+ }
+  
 #pictures hr {
     border: 5px solid #ff7b00;
     border-radius: 5px;
