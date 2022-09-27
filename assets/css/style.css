@@ -33,6 +33,10 @@ h2 {
 header a {
     text-decoration: none;
 }
+
+.navbar{
+  display: none;
+}
 /* end of header and main picture */
 
 /* Navigation menu */
@@ -47,7 +51,7 @@ header a {
     line-height: 75px;
 }
 
-    /* to revers order of the nav  bar */
+    /* to revers order of the menu*/
 nav {
     float: right;
 }
@@ -73,7 +77,7 @@ nav {
     text-shadow: 0 0 15px #ff7b00;
     border-bottom: 2px solid #ff7b00;
 }
-    /* end of to revers order of the nav  bar */
+    /* end of to revers order of the menu*/
 /* edn of Navigation menu */
 
 /* main-page-picture */
@@ -286,6 +290,7 @@ margin:20px auto;
 /* Form */ 
 
 .signup-form-section {
+    margin-top: 150px;
     clear: left;
     background:  url('../images/12.jpg') no-repeat center center;
     background-size: cover;
@@ -456,6 +461,86 @@ margin:20px auto;
         height: 200px;
     }
   
+/*  */
+
+
+    nav ul{
+        display:none;
+    }
+    nav{ 
+        clear:both;
+        display:block;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .navbar {
+        display: block;
+        overflow: hidden;
+        background-color: #ff7b00;
+        margin:auto;
+             
+    
+    }
+  
+   .navbar a {
+        float: left;
+        font-size: 16px;
+        color: #ff7b00;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+   }
+  
+   .dropdown {
+        overflow: hidden;
+        text-align: center;
+        margin-top: 10px;
+   }
+  
+   .dropdown .hamburger {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: #ff7b00;
+        padding: 14px 16px;
+        margin: 0;
+  }
+  
+   .navbar a:hover, .dropdown:hover {
+        background-color: #ff7b00;
+        color:#252525;
+  }
+  
+   .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ff7b00;
+        min-width: 160px;
+        z-index: 1;
+  }
+  
+   .dropdown-content a {
+        float: none;
+        color: #ff7b00;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+        background-color: #ff7b00;
+  }
+  
+  .dropdown:hover .dropdown-content {
+        display: block;
+  }
+
+
+
+
+
 }
 
 
