@@ -451,9 +451,10 @@ margin:20px auto;
     #list-of-projects-li li {
         column-count:3;
         margin:auto;
-        margin-left:10px;
+        margin-left:20px;
+        margin-top: 5px;
         padding:0;
-        width: 30%;
+        width: 25%;
         text-align: left;
         text-align: justify;
     }
