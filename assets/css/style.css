@@ -449,10 +449,11 @@ margin:20px auto;
     }
 
     #list-of-projects-li li {
-        column-count: 3;
+        column-count:3;
         margin:auto;
+        margin-left:10px;
         padding:0;
-        width: 33%;
+        width: 30%;
         text-align: left;
         text-align: justify;
     }
@@ -461,7 +462,7 @@ margin:20px auto;
         height: 200px;
     }
   
-/*  */
+/* hamburger menu  */
 
 
     nav ul{
@@ -471,7 +472,7 @@ margin:20px auto;
         clear:both;
         display:block;
         width: 100%;
-        height: 50px;
+        height: 60px;
     }
     
     .navbar {
@@ -484,7 +485,6 @@ margin:20px auto;
     }
   
    .navbar a {
-        float: left;
         font-size: 16px;
         color: #ff7b00;
         text-align: center;
@@ -536,10 +536,6 @@ margin:20px auto;
   .dropdown:hover .dropdown-content {
         display: block;
   }
-
-
-
-
 
 }
 
