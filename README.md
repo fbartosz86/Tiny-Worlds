@@ -63,7 +63,7 @@ I chose a color palette based around dark gray & orange as these colors achieve 
 Orange is a very vibrant and energetic color. In its muted forms it can be associated with the earth and with autumn, the time when we spend more time at home and have more time for our hobbies and it is a known fact that the orange color is also strongly associated with creativity.
 In designs, orange commands attention without being as overpowering as red. It’s often considered more friendly and inviting, and less in–your–face.
 
-I used 'Open Sans' and 'Raleway' across the entire website. 'Open sans is here for readability, I used it for all the body elements beside headers where i used 'Releway' that rings an elegant, yet bold presence to any website
+I used 'Open Sans' and 'Raleway' across the entire website. 'Open sans is here for readability, I used it for all the body elements beside heading where i used 'Releway' that rings an elegant, yet bold presence to any website
 
 ---
 
@@ -98,17 +98,21 @@ Lighthouse is a feature of Google Chrome developer tools and is used to assess t
 I used The W3C CSS and The W3C Markup Validation Service:
 
 ![](assets/images/w3cindex.png)
-![](assets/images/w3chome.png)
-![](assets/images/w2csignup.png)
-![](assets/images/wc3confirmation.png)
+![](assets/images/w3gallery.png)
+![](assets/images/w3csignup.png)
+![](assets/images/w3cconfirmation.png)
 ![](assets/images/cssValidation.png)
 
 
+## Known bugs and fixes
+### CSS
+closing curly bracket was missing at the end of css file.
+### Gallery
+Error: Attribute alt not allowed on element iframe at this point - removed alt and replace it with a title atribute
 
-
-
-
-
+Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead - removed frameborder atribute
+### Sign-UP
+Error: The value of the for attribute of the label element must be the ID of a non-hidden form control - alocete for atribute to corect id.
 
 
 ---

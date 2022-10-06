@@ -34,9 +34,10 @@ header a {
     text-decoration: none;
 }
 
-.navbar{
-  display: none;
+.navbar {
+    display: none;
 }
+
 /* end of header and main picture */
 
 /* Navigation menu */
@@ -51,7 +52,7 @@ header a {
     line-height: 75px;
 }
 
-    /* to revers order of the menu*/
+/* to revers order of the menu*/
 nav {
     float: right;
 }
@@ -77,7 +78,8 @@ nav {
     text-shadow: 0 0 15px #ff7b00;
     border-bottom: 2px solid #ff7b00;
 }
-    /* end of to revers order of the menu*/
+
+/* end of to revers order of the menu*/
 /* edn of Navigation menu */
 
 /* main-page-picture */
@@ -103,7 +105,8 @@ nav {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-    /* end of animation zoom for when page is loading*/
+
+/* end of animation zoom for when page is loading*/
 /*end of  main-page-picture */
 
 /* level of zoom */
@@ -117,6 +120,7 @@ nav {
         transform: scale(1.1);
     }
 }
+
 /* end of level of zoom */
 
 /* section2 h1 and p */
@@ -150,6 +154,7 @@ h2 {
     font-size: 200%;
 
 }
+
 /*end of section2 h1 and p */
 
 /* footer */
@@ -183,6 +188,7 @@ i:hover {
     box-shadow: 0 0 15px #ff7b00;
 
 }
+
 /* end of footer */
 
 
@@ -203,31 +209,32 @@ i:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-  }
-  
-  .image-gallery > li {
+}
+
+.image-gallery>li {
     height: 400px;
-    position: relative; 
-    flex:auto;
+    position: relative;
+    flex: auto;
     list-style-type: none;
-  }
-  
-  .image-gallery li img {
+}
+
+.image-gallery li img {
     object-fit: cover;
     width: 100%;
     height: 100%;
     vertical-align: middle;
     border-radius: 5px;
-      
-  }
-  .image-gallery li iframe {
+
+}
+
+.image-gallery li iframe {
     object-fit: cover;
     width: 100%;
     height: 100%;
     vertical-align: middle;
     border-radius: 5px;
-      
-  }
+
+}
 
 
 #pictures hr {
@@ -245,7 +252,7 @@ i:hover {
 }
 
 #pictures h2 {
-margin:20px auto;
+    margin: 20px auto;
 }
 
 #list-of-projects-li a {
@@ -285,34 +292,37 @@ margin:20px auto;
     color: #ff7b00;
     text-shadow: 0 0 15px #ff7b00;
 }
+
 /* end of go to top button */
 
-/* Form */ 
+/* Form */
 
 .signup-form-section {
     margin-top: 150px;
     clear: left;
-    background:  url('../images/12.jpg') no-repeat center center;
+    background: url('../images/12.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
 }
+
 .signup-form {
     margin: 150px 10% 0 0;
     color: #ff7b00;
-    background-color: rgba(37,	37,	37, 0.6);
+    background-color: rgba(37, 37, 37, 0.6);
     max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 35px;
 }
+
 .signup-form h2 {
     color: #ff7b00;
     background-color: transparent;
     margin-bottom: 30px;
 }
 
-.label{
+.label {
     background-color: transparent;
 }
 
@@ -325,25 +335,29 @@ margin:20px auto;
     border: 1px solid #ff7b00;
     border-radius: 2px;
 }
+
 .input-text:hover {
     border-color: #ff7b00;
     box-shadow: 0 0 15px #ff7b00;
 }
+
 .signup-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color:#ff7b00;
+    background-color: #ff7b00;
     color: #252525;
     display: block;
 }
+
 .signup-button:hover {
     background-color: #252525;
     color: #ff7b00;
     box-shadow: 0 0 15px #ff7b00;
 }
+
 /* end form */
 
 /* confirmation */
@@ -351,9 +365,11 @@ margin:20px auto;
 #confi {
     background-color: transparent;
 }
-#gohome{
-    margin:20px auto;
+
+#gohome {
+    margin: 20px auto;
 }
+
 /* end of confirmation */
 
 /* For larger to medium screens size from 1300px wide and down */
@@ -397,8 +413,8 @@ margin:20px auto;
         height: 550px;
         margin: 0;
         padding: 0;
-        
-       
+
+
     }
 
     #main-page-picture {
@@ -413,16 +429,16 @@ margin:20px auto;
 /* For larger to medium screens size from 760px wide and down */
 
 @media only screen and (max-width: 760px) {
-.image-gallery > li {
-    height: 250px;
-}
+    .image-gallery>li {
+        height: 250px;
+    }
 
 }
 
 /* For larger to medium screens size from 600px wide and down */
 
 @media only screen and (max-width: 600px) {
-    
+
     #menu li {
         margin-right: 25px;
 
@@ -440,103 +456,107 @@ margin:20px auto;
         background-size: 600px 520px;
     }
 
-    #list-of-projects{
+    #list-of-projects {
         font-size: 300%;
     }
 
-     #title-logo, #welcome, #list-of-projects{
+    #title-logo,
+    #welcome,
+    #list-of-projects {
         font-size: 300%;
     }
 
     #list-of-projects-li li {
-        column-count:3;
-        margin:auto;
-        margin-left:20px;
+        column-count: 3;
+        margin: auto;
+        margin-left: 20px;
         margin-top: 5px;
-        padding:0;
+        padding: 0;
         width: 25%;
         text-align: left;
         text-align: justify;
     }
- 
-    .image-gallery > li {
+
+    .image-gallery>li {
         height: 200px;
     }
-  
-/* hamburger menu  */
+
+    /* hamburger menu  */
 
 
-    nav ul{
-        display:none;
+    nav ul {
+        display: none;
     }
-    nav{ 
-        clear:both;
-        display:block;
+
+    nav {
+        clear: both;
+        display: block;
         width: 100%;
         height: 60px;
     }
-    
+
     .navbar {
         display: block;
         overflow: hidden;
         background-color: #ff7b00;
-        margin:auto;
-             
-    
+        margin: auto;
+
+
     }
-  
-   .navbar a {
+
+    .navbar a {
         font-size: 16px;
         color: #ff7b00;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-   }
-  
-   .dropdown {
+    }
+
+    .dropdown {
         overflow: hidden;
         text-align: center;
         margin-top: 10px;
-   }
-  
-   .dropdown .hamburger {
+    }
+
+    .dropdown .hamburger {
         font-size: 16px;
         border: none;
         outline: none;
         color: #ff7b00;
         padding: 14px 16px;
         margin: 0;
-  }
-  
-   .navbar a:hover, .dropdown:hover {
+    }
+
+    .navbar a:hover,
+    .dropdown:hover {
         background-color: #ff7b00;
-        color:#252525;
-  }
-  
-   .dropdown-content {
+        color: #252525;
+    }
+
+    .dropdown-content {
         display: none;
         position: absolute;
         background-color: #ff7b00;
         min-width: 160px;
         z-index: 1;
-  }
-  
-   .dropdown-content a {
+    }
+
+    .dropdown-content a {
         float: none;
         color: #ff7b00;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
         text-align: left;
-  }
-  
-  .dropdown-content a:hover {
+    }
+
+    .dropdown-content a:hover {
         background-color: #ff7b00;
-  }
-  
-  .dropdown:hover .dropdown-content {
+    }
+
+    .dropdown:hover .dropdown-content {
         display: block;
-  }
+    }
 
 }
 
@@ -546,16 +566,18 @@ margin:20px auto;
 @media only screen and (max-width: 480px) {
 
     nav {
-        clear:both;
+        clear: both;
     }
 
     #menu li {
         margin-left: 30px;
         margin-bottom: 10px;
-        clear:both;
+        clear: both;
     }
 
-    #title-logo, #welcome, #list-of-projects{
+    #title-logo,
+    #welcome,
+    #list-of-projects {
         font-size: 280%;
     }
 
@@ -571,53 +593,58 @@ margin:20px auto;
         background-size: 450px 510px;
     }
 
-    #list-of-projects{
+    #list-of-projects {
         margin-top: 200px;
-        
+
     }
-   
+
 }
 
 /* For larger to medium screens size from 440px wide and down */
 
 @media only screen and (max-width: 440px) {
-    #list-of-projects{
-         margin-bottom: 30px;
-         
+    #list-of-projects {
+        margin-bottom: 30px;
+
     }
 
     .signup-form {
         left: 5%;
         margin: 150px 5% 0 0;
-}
-    
+    }
+
 }
 
 /* For larger to medium screens size from 380px wide and down */
 
 @media only screen and (max-width: 380px) {
-    #list-of-projects{
-         margin-top: 260px;
+    #list-of-projects {
+        margin-top: 260px;
     }
- .signup-form {
+
+    .signup-form {
         left: 2%;
         margin: 150px 2% 0 0;
-        padding:20px;
-}
-.image-gallery > li {
-    height: 100px;
-}
+        padding: 20px;
+    }
+
+    .image-gallery>li {
+        height: 100px;
+    }
 
 }
+
 /* For larger to medium screens size from 360px wide and down */
 
 @media only screen and (max-width: 360px) {
     #main-page-text {
         height: 60rem;
     }
-    #welcome{
+
+    #welcome {
         font-size: 270%;
     }
+
     #main-page-picture-box {
         height: 500px;
     }
@@ -625,20 +652,24 @@ margin:20px auto;
     #main-page-picture {
         background-size: 360px 500px;
     }
+
     .signup-form {
         left: 1%;
         margin: 150px 1% 0 0;
-        padding:10px;
-}
-
-/* For larger to medium screens size from 280px wide and down */
-
-@media only screen and (max-width: 280px) {
-    #main-page-text {
-        height: 80rem;
+        padding: 10px;
     }
 
-    #title-logo, #welcome, #list-of-projects {
-        font-size: 240%;
+    /* For larger to medium screens size from 280px wide and down */
+
+    @media only screen and (max-width: 280px) {
+        #main-page-text {
+            height: 80rem;
+        }
+
+        #title-logo,
+        #welcome,
+        #list-of-projects {
+            font-size: 240%;
+        }
     }
 }
