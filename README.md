@@ -36,16 +36,16 @@ Tiny Worlds target users are:
 
 What these users would be looking for:
 * Clear, concise, easy-to-find information.
-* Beautiful photos that provide inspiration and make this hobby looks intresting.
+* Beautiful photos that provide inspiration and make this hobby looks interesting.
 
-This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance as this is often the reason people are put off with this kind of websites. It is assumed that most users will be viewing the site on their mobile phones and therefore creating something responsive is integral to the design.
+This website will offer all these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance as this is often the reason people are put off with this kind of websites. It is assumed that most users will be viewing the site on their mobile phones and therefore creating something responsive is integral to the design.
 
 ### **Scope**
 
 In order to achieve the desired user & business goals, the following features will be included in this release:
 
 - Header and menu bar, to navigate to various sections of the page.
-- Gallery of images and videos with greate inspiring ideas.
+- Gallery of images and videos with great inspiring ideas.
 - Newsletter sign up form.
 - Links to affiliate social media pages.
 
@@ -59,26 +59,27 @@ Whilst building the website, at first I added all of the pictures of the project
 
 ### **Surface**
 
-I chose a color palette based around dark gray & orange as these colors achieve a nice elegant contrast.
-Orange is a very vibrant and energetic color. In its muted forms it can be associated with the earth and with autumn, the time when we spend more time at home and have more time for our hobbies and it is a known fact that the orange color is also strongly associated with creativity.
+I chose a colour palette based around dark grey & orange as these colours achieve a nice, elegant contrast.
+Orange is a very vibrant and energetic colour. In its muted forms it can be associated with the earth and with autumn, the time when we spend more time at home and have more time for our hobbies and it is a known fact that the orange colour is also strongly associated with creativity.
 In designs, orange commands attention without being as overpowering as red. It’s often considered more friendly and inviting, and less in–your–face.
 
-I used 'Open Sans' and 'Raleway' across the entire website. 'Open sans is here for readability, I used it for all the body elements beside heading where i used 'Releway' that rings an elegant, yet bold presence to any website
+I used 'Open Sans' and 'Raleway' across the entire website. 'Open sans is here for readability, I used it for all the body elements beside heading where I used 'Releway' that rings an elegant, yet bold presence to any website
+
 
 ---
 
 ## **Features**
 
-This is a fully responsive website that was designed for all devices like laptops, desktops, tablets and mobile phone.
+This is a fully responsive website that was designed for all devices like laptops, desktops, tablets, and mobile phone.
 
 ### *Navbar*
 The navbar is placed on the right-hand side of the head on the big screens then for tablets size screens it is moved to the left side to keep a clean view, and it turns into a "hamburger menu" for smaller screen sizes.
 
 ### *Home Page*
-This is where I  Introduce the Tiny Worlds page with an animated image followed by H1 heading "WELCOME" followed by 3 paragraphs with few short not ooverwelming information about what I want to share with viewver of this weebpage, followed by social media links.
+This is where I Introduce the Tiny Worlds page with an animated image followed by H1 heading "WELCOME" followed by 3 paragraphs with few short not overwhelming information about what I want to share with viewer of this webpage, followed by social media links.
 
 ### *Gallery*
-This page starts with the H1 Heading "LSIT OF PROJECTS", followed by a list of projects name hyperlinked to the relevant areas on the page to allow the viewer to choose and jump straight into the projects that cought their attention,  followed by some beautiful, inspiring images and videos grouped int the responsive flex box gallery, accompanied with go to the top page button and followed by the social media links.
+This page starts with the H1 Heading "LSIT OF PROJECTS", followed by a list of projects name hyperlinked to the relevant areas on the page to allow the viewer to choose and jump straight into the projects that caught their attention, followed by some beautiful, inspiring images and videos grouped int the responsive flex box gallery, accompanied with go to the top page button and followed by the social media links.
 
 ### *Sign up*
 This page is about signing up to Tiny Worlds Newsletters which will redirect the user to another "confirmation" page which is Thank you for signing up page with go back home button.
@@ -97,7 +98,7 @@ Lighthouse is a feature of Google Chrome developer tools and is used to assess t
 ### *HTML and CSS Validation*
 I used The W3C CSS and The W3C Markup Validation Service:
 
-![](assets/images/w3cindex.png)
+![](assets/images/w3cindexnoerror.png)
 ![](assets/images/w3gallery.png)
 ![](assets/images/w3csignup.png)
 ![](assets/images/w3cconfirmation.png)
@@ -105,14 +106,17 @@ I used The W3C CSS and The W3C Markup Validation Service:
 
 
 ## Known bugs and fixes
+### Index
+![](assets/images/w3cindex.png)
+Errors fixed by using W3C suggestions.
 ### CSS
-closing curly bracket was missing at the end of css file.
+closing curly bracket was missing at the end of CSS file.
 ### Gallery
-Error: Attribute alt not allowed on element iframe at this point - removed alt and replace it with a title atribute
+Error: Attribute alt not allowed on element iframe at this point - removed alt and replace it with a title attribute
 
-Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead - removed frameborder atribute
+Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead - removed frameborder attribute
 ### Sign-UP
-Error: The value of the for attribute of the label element must be the ID of a non-hidden form control - alocete for atribute to corect id.
+Error: The value of the for attribute of the label element must be the ID of a non-hidden form control - allocete for attribute to correct id.
 
 ---
 ## Technologies Used 
@@ -142,7 +146,7 @@ I have used several technologies that have enabled this design to work:
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Used to validate all CSS code written and used in this webpage.
 - [AmIResponsive](http://ami.responsivedesign.is/)
-    - Used to generate repsonsive image used in README file.
+    - Used to generate responsive image used in README file.
 
 ---
 ## Deployment
