@@ -80,15 +80,19 @@ The navbar is placed on the right-hand side of the head on the big screens then 
 
 ### *Home Page*
 This is where I Introduce the Tiny Worlds page with an animated image followed by H1 heading "WELCOME" followed by 3 paragraphs with few short not overwhelming information about what I want to share with viewer of this webpage, followed by social media links.
+
 ![](assets/images/home.png)
 
 ### *Gallery*
 This page starts with the H1 Heading "LSIT OF PROJECTS", followed by a list of projects name hyperlinked to the relevant areas on the page to allow the viewer to choose and jump straight into the projects that caught their attention, followed by some beautiful, inspiring images and videos grouped int the responsive flex box gallery, accompanied with go to the top page button and followed by the social media links.
-![](assets/images/gallerty.png)
 
+![](assets/images/gallery.png)
 
 ### *Sign up*
 This page is about signing up to Tiny Worlds Newsletters which will redirect the user to another "confirmation" page which is Thank you for signing up page with go back home button.
+
+![](assets/images/signup.png)
+![](assets/images/confirmation.pn
 
 ### *Social media links*
 The Social media links can be found on all pages.
