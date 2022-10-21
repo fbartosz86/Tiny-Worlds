@@ -92,10 +92,12 @@ This page starts with the H1 Heading "LSIT OF PROJECTS", followed by a list of p
 This page is about signing up to Tiny Worlds Newsletters which will redirect the user to another "confirmation" page which is Thank you for signing up page with go back home button.
 
 ![](assets/images/signup.png)
-![](assets/images/confirmation.pn
+![](assets/images/confirmation.png)
 
 ### *Social media links*
 The Social media links can be found on all pages.
+
+![](assets/images/social.png)
 
 ---
 ## Testing
